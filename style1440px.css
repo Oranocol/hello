@@ -1,0 +1,764 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.topDiv{
+    width: 1440px;
+    height: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./images/bg-2.png);
+    background-size: 1440px 768px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.topDiv:before{
+    content: "";
+    position: absolute;
+    width: 1440px;
+    height: 768px;
+    background-image: url(./images/bg.png);
+    background-size: 1440px 768px;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    
+}
+
+
+
+.containerTop{
+    width: 1109px;
+    height: 435px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 36px;
+    z-index: 3;
+    
+
+}
+
+.titleMenu{
+    width: 1109px;
+    height: 29px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    z-index: 2;
+}
+
+.menuMob{
+  display: none;
+}
+.linesMenuMob{
+   display: none;
+
+}
+
+.title{
+    width: 116px;
+    height: 29px;
+}
+
+.title h1{
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+}
+
+.menuFull{
+    width: 529px;
+    height: 29px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuButtons{
+    width: 73px;
+    height: 22px;
+}
+
+.menuButtons a{
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+cursor: pointer;
+}
+
+.containerForBigAndSmall{
+    width: 1109px;
+    height: 133px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.bigText{
+    width: 692px;
+    height: 78px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 3;
+}
+
+.bigText h1{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 78px;
+    color: white;
+}
+
+.smallText{
+    width: 333px;
+    height: 29px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 3;
+}
+
+.smallText p{
+    color: white;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.linlUnderText{
+    width: 1109px;
+    height: 22px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 3;
+}
+
+.linlUnderText a{
+   text-decoration: underline;
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+
+.textDiv{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    height: 544px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerForTextDiv{
+    width: 1110px;
+    height: 344px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleTextDiv{
+    width: 1110px;
+    height: 29px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titleTextDiv h1{
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+}
+
+.containerForParagraphs{
+    width: 1110px;
+    height: 231px;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paragraphs{
+    width: 1110px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: justify;
+}
+
+.paragraphs p{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+.skillDiv{
+    width: 1440px;
+    height: 693px;
+    background-color: #fffaf2;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerForSkillDiv{
+    width: 1110px;
+    height: 327px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleForSkillDiv{
+    width: 1110px;
+    height: 29px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    bottom: 40px;
+}
+
+.titleForSkillDiv h1{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.containerForContentSkillDiv{
+    width: 1110px;
+    height: 340px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.photoSkillDiv img{
+    width: 340px;
+    height: 340px;
+}
+
+.containerForLinesSkillDiv{
+    width: 635px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textLineSingle{
+    width: 635px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between      ;
+    align-items: center;
+    
+}
+
+.textLeft{
+    width: 58px;
+    height: 25px;
+}
+
+.textLeft p{
+
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.textRight{
+    width: 446px;
+    height: 25px;
+}
+
+.textRight p{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.containerForTextLines{
+    width: 635px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.graphicLines{
+    width: 635px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.containerForTagLines{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tagsForLines{
+    height: 25px;
+  
+}
+
+.tagsForLines p{
+
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.containerForLinesWith{
+    width: 446px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.graphicLineOnly{
+    width: 446px;
+    height: 24px;
+    background-image: url(./images/Bar\ Back.png);
+    background-size: 446px 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.graphicLineOnly:after{
+    content: "";
+    position: absolute;
+    width: 286px;
+    height: 24px;
+    background-image: url(./images/Bar\ Front.png);
+    background-size: 286px 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.graphicLineOnly2{
+    width: 446px;
+    height: 24px;
+    background-image: url(./images/Bar\ Back.png);
+    background-size: 446px 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.graphicLineOnly2:after{
+    content: "";
+    position: absolute;
+    width: 351px;
+    height: 24px;
+    background-image: url(./images/Bar\ Front.png);
+    background-size: 351px 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.graphicLineOnly3{
+    width: 446px;
+    height: 24px;
+    background-image: url(./images/Bar\ Back.png);
+    background-size: 446px 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.graphicLineOnly3:after{
+    content: "";
+    position: absolute;
+    width: 381px;
+    height: 24px;
+    background-image: url(./images/Bar\ Front.png);
+    background-size: 381px 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.textLineOnly{
+    width: 446px;
+    height: 25px;
+    display: flex;
+    justify-content: start;
+}
+
+.textLineOnly p{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.albumDiv{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    height: 822px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerForAlbumMain{
+    width: 1110px;
+    height: 622px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.conteinerForTextAlbum{
+    width: 349px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start ;
+}
+
+.titleForAlbum{
+    width: 349px;
+    height: 29px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titleForAlbum h1{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.conteinerForUnderTitleText{
+    width: 349px;
+    height: 202px;
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 70px;
+}
+
+.underTitle{
+    width: 349px;
+    height: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.underTitle p{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.mainTextAlbum{
+    width: 349px;
+    height: 131.7px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: start   ;
+}
+
+.mainTextAlbum p{
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+}
+
+.albumPhotos{
+    width: 635px;
+    height: 622px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 15px;
+    align-items: flex-end;
+}
+
+.conteinerForLeftPhotos{
+    width: 349px;
+    height: 403px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.albumPhotos1{
+    width: 350px;
+    height:144px;
+    background-image: url(./images/Rectangle.png);
+    background-size: 350px 144px;
+    background-repeat: no-repeat;
+}
+
+.albumPhotos2{
+    width: 350px;
+    height: 233px;
+    background-image: url(./images/Rectangle-2.png);
+    background-size: 350px 233px;
+    background-repeat: no-repeat;
+
+}
+
+.conteinerForRightPhotos{
+    width: 255px;
+    height: 403px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.albumPhoto3{
+    width: 255px;
+    height: 233px;
+    background-image: url(./images/Mask\ Group.png);
+    background-size: 255px 233px;
+    background-repeat: no-repeat;
+}
+
+.albumPhoto4{
+    width: 255px;
+    height: 144px;
+    background-image: url(./images/Rectangle-3.png);
+    background-size: 255px 144px;
+    background-repeat: no-repeat;
+}
+
+.pointers{
+    width: 62px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 250px;
+}
+
+.leftP{
+    width: 24px;
+    height: 24px;
+    background-color: black;
+}
+
+.rightP{
+    width: 24px;
+    height: 24px;
+    background-color: black;
+}
+
+.footer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    height: 528px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffaf2;
+}
+
+.containerFooter{
+    width: 1110px;
+    height: 246px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleFooter{
+    width: 1110px;
+    height: 29px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titleFooter h1{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.conteinerForAllMedias{
+    width: 1110px;
+    height: 166px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteinerForSocialMedia{
+    width: 760px;
+    height: 166px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leftMedia{
+    width: 380px;
+    height: 166px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.rightMedia{
+    width: 380px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.mediaLine{
+    width: 73px;
+    height: 22px;
+    text-align: start;
+}
+
+.mediaLine a{
+    color: black;
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+
+.conteinerForEmailPhoneAndUp{
+    width: 350px;
+    height: 166px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.emailPhone{
+    width: 170px;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.email{
+    width: 168px;
+    height: 22px;
+}
+
+.email p{
+    font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+
+.phone{
+    width: 136px;
+    height: 18px;
+}
+
+.phone p{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+
+.up{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 170px;
+}
+
+.up a{
+    color: black;
+    font-family: 'Segoe MDL2 Assets';
+font-size: 24px;
+line-height: 24px;
+}
